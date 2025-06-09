@@ -2,37 +2,45 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Agricultura Sustentável</title>
-  <link rel="stylesheet" href="/styles/style.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Manejo Sustentável</title>
+  <link rel="stylesheet" href="/styles/style.css"/>
 </head>
 <body>
-  <div class="container">
-    <h1>Agricultura e Manejo Sustentável</h1>
-    <img src="/imgres.html" alt="Agricultura" class="banner" />
+  <header>
+    <h1>Manejo e Agricultura Sustentável</h1>
+    <p>Práticas que cuidam da terra e garantem o futuro</p>
+  </header>
 
-    <p>Você sabe o quanto suas práticas agrícolas são sustentáveis? Responda ao quiz abaixo!</p>
+  <main>
+    <section>
+      <h2>🌱 O que é Agricultura Sustentável?</h2>
+      <p>
+        Agricultura sustentável é o conjunto de práticas que respeitam os limites naturais do solo, da água e da biodiversidade. Ela busca produzir alimentos de forma equilibrada, sem esgotar os recursos naturais.
+      </p>
+      <img src="/images/solo-saudavel.jpg" alt="Solo saudável" />
+    </section>
 
-    <div class="quiz">
-      <div class="question">
-        <p>1. Qual destas práticas ajuda a preservar o solo?</p>
-        <button onclick="checkAnswer(this, true)">Rotação de culturas</button>
-        <button onclick="checkAnswer(this, false)">Queimada controlada</button>
-        <button onclick="checkAnswer(this, false)">Uso excessivo de fertilizantes</button>
-      </div>
+    <section>
+      <h2>🔄 Rotação de Culturas</h2>
+      <p>
+        A rotação de culturas é uma técnica que alterna diferentes tipos de plantas numa mesma área, preservando os nutrientes do solo e reduzindo pragas e doenças.
+      </p>
+      <img src="/images/rotacao-culturas.jpg" alt="Rotação de culturas" />
+    </section>
 
-      <div class="question">
-        <p>2. O que é agroecologia?</p>
-        <button onclick="checkAnswer(this, true)">Integração entre ecologia e agricultura</button>
-        <button onclick="checkAnswer(this, false)">Uso de agrotóxicos modernos</button>
-        <button onclick="checkAnswer(this, false)">Produção intensiva em larga escala</button>
-      </div>
+    <section>
+      <h2>🌳 Sistemas Agroflorestais</h2>
+      <p>
+        Combinar árvores com cultivos agrícolas e pastagens promove equilíbrio ecológico, aumenta a produtividade e recupera áreas degradadas.
+      </p>
+      <img src="/images/agrofloresta.jpg" alt="Agrofloresta" />
+    </section>
+  </main>
 
-      <img src="/imgem2.html" alt="Sustentabilidade" class="banner" />
-
-      <div id="resultado"></div>
-    </div>
-  </div>
+  <footer>
+    <p>© 2025 - Projeto Educativo de Manejo Sustentável</p>
+  </footer>
 
   <script src="/scripts/script.js"></script>
 </body>
