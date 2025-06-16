@@ -1,2 +1,4 @@
-// Código reservado para funcionalidades futuras (ex: galeria, animações, etc)
-console.log("Site de Manejo Sustentável carregado.");
+// script.js
+document.addEventListener('DOMContentLoaded', () => {
+  console.log('Página carregada com sucesso!');
+});
